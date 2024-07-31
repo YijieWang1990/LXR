@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <header>
+              <img src="./assets/react-core-concepts.png" alt="hahaha"/>
+              <h1>React Essentials</h1>
+              <p>
+                  Fundamental React concepts you will need for almost any app you are
+                  going to build!
+              </p>
+          </header>
+        <main>
+          <h2>Time to get started!</h2>
+        </main>
+      </div>
   );
 }
+
 
 export default App;
